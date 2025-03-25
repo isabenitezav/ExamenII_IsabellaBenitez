@@ -1,0 +1,328 @@
+:root{
+	--color-aqua:#00d9d9;
+	--color-titulos:#000;
+	--color-contenido: #2d2d2d;
+	--bg-header:#000;
+	--bg-footer:#222222;
+}
+body{
+	color:var(--color-contenido);
+}
+
+header{
+	background-color: var(--bg-header);
+	padding: 20px 0;
+}
+
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    .carousel-item {
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+
+    .carousel-caption-fixed {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: left;
+      left: 5%;
+      right: 50%;
+      z-index: 2;
+    }
+
+    .carousel-caption-fixed h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 3rem;
+      color: white;
+      background:;
+      padding: 10px 15px;
+      display: inline-block;
+    }
+
+    .carousel-caption-fixed p {
+      font-size: 1.1rem;
+      color:white;
+      background:;
+      padding: 8px 12px;
+      display: inline-block;
+      margin-bottom: 2rem;
+    }
+
+    .btn-primary-custom {
+      background-color: var(--color-aqua);
+      border: none;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      margin-right: 1rem;
+    }
+
+    .btn-outline-custom {
+      border: 1px solid #fff;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      background: transparent;
+    }
+
+    .carousel-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: 1;
+    }
+  
+#services {
+    background-color:white;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+	padding: 30px	
+  }
+
+  .icon-circle {
+    background-color: var(--color-aqua);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon-circle img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .service-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--color-titulos);
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+	  text-align: left
+  }
+
+  .service-text {
+    font-size: 0.95rem;
+    color: #2d2d2d;
+    max-width: 300px;
+    margin: 0 auto;
+	  text-align: left
+  }
+
+#about {
+    font-family: 'Raleway', sans-serif;
+    background-color: #fff;
+	padding: 30px 
+  }
+
+  .about-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: var(--color-titulos);
+    font-size: 1.75rem;
+  }
+
+  .about-subtitle {
+    color: #555;
+    font-style: italic;
+    margin-top: 0.25rem;
+    font-size: 1rem;
+  }
+
+  .line-accent {
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(to right, #000 40%, var(--color-aqua) 60%);
+  }
+
+  .about-text {
+    color: var(--color-contenido);
+    font-size: 1rem;
+    margin-top: 1rem;
+    line-height: 1.7;
+  }
+
+  .image-wrapper {
+    position: relative;
+    padding: 8px;
+    background-color: var(--color-aqua);
+    display: inline-block;
+  }
+
+  .image-wrapper img {
+    position: relative;
+    display: block;
+    background-color: #fff;
+    padding: 4px;
+  }
+
+  @media (max-width: 768px) {
+    .line-accent {
+      margin: 0 auto;
+    }
+    .about-title,
+    .about-subtitle,
+    .about-text {
+      text-align: center;
+    }
+  }
+
+#doctors {
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+	margin: 0px
+  }
+
+  .section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--color-titulos);
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 0.25rem;
+  }
+
+  .line-accent {
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(to right, #000 40%, var(--color-aqua) 60%);
+  }
+
+  .doctor-card img {
+    max-height: 320px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .doctor-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--color-titulos);
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+  }
+
+  .doctor-role {
+    font-size: 0.95rem;
+    color: #777;
+  }
+
+  @media (max-width: 576px) {
+    .doctor-card img {
+      max-height: 280px;
+    }
+  }
+
+#testimonios {
+    background-color: #f9f9f9;
+	padding: 30px 0;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .testimonial-text {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+
+  .quote-icon {
+    font-size: 40px;
+    background: #aaa;
+    color: #fff;
+    padding: 12px 15px;
+    border-radius: 50%;
+  }
+
+  .testimonial-author {
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #333;
+    font-size: 0.95rem;
+  }
+
+  .testimonial-stars {
+    font-size: 1.2rem;
+    color: gold;
+    margin-top: 8px;
+  }
+
+  footer {
+    background-color: var(--bg-footer);
+    color: #888;
+    padding: 30px 0;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  footer p span {
+    color: var(--color-aqua);
+  }
+
+  footer h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  .footer-info li {
+    margin-bottom: 10px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-info i {
+    color: var(--color-aqua);
+    min-width: 16px;
+  }
+
+  .footer-social a {
+    color: #888;
+    margin-right: 10px;
+    font-size: 16px;
+    display: inline-block;
+    transition: color 0.3s ease;
+  }
+
+  .footer-social a:hover {
+    color: var(--color-aqua);
+  }
+
+  footer #copy {
+    padding: 20px 0;
+    margin-top: 5%;
+    color: #fff;
+    border-top: 1px dashed rgba(255, 255, 255, 0.15);
+  }
+
+  @media (max-width: 768px) {
+    .footer-info, .footer-social {
+      justify-content: center;
+    }
+
+    .text-start {
+      text-align: center !important;
+    }
+  }
+
